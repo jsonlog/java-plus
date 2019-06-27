@@ -3,6 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/java-plus.iml" filepath="$PROJECT_DIR$/.idea/java-plus.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jdbc/jdbc.iml" filepath="$PROJECT_DIR$/jdbc/jdbc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/servlet/servlet.iml" filepath="$PROJECT_DIR$/servlet/servlet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springIOC简单实现/spring-IOC简单实现.iml" filepath="$PROJECT_DIR$/springIOC简单实现/spring-IOC简单实现.iml" />
+      <module fileurl="file://$PROJECT_DIR$/动态代理/动态代理.iml" filepath="$PROJECT_DIR$/动态代理/动态代理.iml" />
     </modules>
   </component>
 </project>

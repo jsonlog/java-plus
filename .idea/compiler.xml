@@ -1,6 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
-    <bytecodeTargetLevel target="8" />
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="servlet" />
+        <module name="jdbc" />
+        <module name="动态代理" />
+        <module name="spring-IOC简单实现" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="8">
+      <module name="jdbc" target="1.5" />
+      <module name="servlet" target="1.5" />
+      <module name="spring-IOC简单实现" target="1.5" />
+      <module name="动态代理" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
 </project>
