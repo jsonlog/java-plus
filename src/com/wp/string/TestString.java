@@ -18,10 +18,10 @@ public class TestString {
         //String的hashCode方法会根据value生成值。
         System.out.println(str1.hashCode() == str2.hashCode());
 
-//        char[] chars = new char[]{1, 2, 3, 4, 5};
-//        char[] newchars = chars;
-//        System.out.println(System.identityHashCode(chars));
-//        System.out.println(System.identityHashCode(newchars));
+        char[] chars = new char[]{1, 2, 3, 4, 5};
+        char[] newchars = chars;
+        System.out.println(System.identityHashCode(chars));
+        System.out.println(System.identityHashCode(newchars));
 
         //会生成一个StringBuilder对象，然后调用其append，toString方法。
 //        String s = str + "abc";
