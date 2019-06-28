@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2fca2018-b0c7-4194-a3e1-ab575980bafb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/java-plus.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/java-plus.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/wp/string/TestString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/wp/string/TestString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/wp/内省操作javabean/TestBeanUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/wp/内省操作javabean/TestBeanUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/wp/内省操作javabean/TestIntrospector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/wp/内省操作javabean/TestIntrospector.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/wp/回调/callback2/GuavaFuture.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/wp/回调/callback2/GuavaFuture.java" afterDir="false" />
-    </list>
+    <list default="true" id="2fca2018-b0c7-4194-a3e1-ab575980bafb" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/jdbc/target/" />
     <ignored path="$PROJECT_DIR$/servlet/target/" />
     <ignored path="$PROJECT_DIR$/springIOC简单实现/target/" />
@@ -23,66 +16,13 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/wp/内省操作javabean/Person.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/wp/内省操作javabean/TestBean.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="28" selection-start-column="28" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/wp/内省操作javabean/TestBeanUtils.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="124" lean-forward="true" selection-start-line="13" selection-start-column="124" selection-end-line="13" selection-end-column="124" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/wp/内省操作javabean/TestIntrospector.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="31" lean-forward="true" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/wp/回调/callback2/GuavaFuture.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="44" lean-forward="true" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1160#1161#0" expanded="true" />
-                <element signature="e#1221#1222#0" expanded="true" />
-                <element signature="e#1319#1320#0" expanded="true" />
-                <element signature="e#1385#1386#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>print</find>
+      <find>main</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -95,6 +35,7 @@
         <option value="$PROJECT_DIR$/src/com/wp/内省操作javabean/TestIntrospector.java" />
         <option value="$PROJECT_DIR$/src/com/wp/内省操作javabean/TestBeanUtils.java" />
         <option value="$PROJECT_DIR$/src/com/wp/回调/callback2/GuavaFuture.java" />
+        <option value="$PROJECT_DIR$/缓存/src/cache/simple/Cache.java" />
       </list>
     </option>
   </component>
@@ -119,169 +60,96 @@
             <path>
               <item name="java-plus" type="b2602c69:ProjectViewProjectNode" />
               <item name="java-plus" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="反射" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="java-plus" type="b2602c69:ProjectViewProjectNode" />
               <item name="java-plus" type="462c0819:PsiDirectoryNode" />
+              <item name="反射" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="java-plus" type="b2602c69:ProjectViewProjectNode" />
               <item name="java-plus" type="462c0819:PsiDirectoryNode" />
+              <item name="反射" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="wp" type="462c0819:PsiDirectoryNode" />
+              <item name="reflect" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="java-plus" type="b2602c69:ProjectViewProjectNode" />
               <item name="java-plus" type="462c0819:PsiDirectoryNode" />
+              <item name="反射" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="wp" type="462c0819:PsiDirectoryNode" />
-              <item name="ArrayList与HashSet比较及Hashcode分析" type="462c0819:PsiDirectoryNode" />
+              <item name="reflect" type="462c0819:PsiDirectoryNode" />
+              <item name="之前的代码" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="java-plus" type="b2602c69:ProjectViewProjectNode" />
               <item name="java-plus" type="462c0819:PsiDirectoryNode" />
+              <item name="反射" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="wp" type="462c0819:PsiDirectoryNode" />
-              <item name="channel" type="462c0819:PsiDirectoryNode" />
+              <item name="reflect" type="462c0819:PsiDirectoryNode" />
+              <item name="了解反射" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="java-plus" type="b2602c69:ProjectViewProjectNode" />
               <item name="java-plus" type="462c0819:PsiDirectoryNode" />
+              <item name="反射" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="wp" type="462c0819:PsiDirectoryNode" />
-              <item name="string" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-plus" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-plus" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="wp" type="462c0819:PsiDirectoryNode" />
-              <item name="内省操作javabean" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-plus" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-plus" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="wp" type="462c0819:PsiDirectoryNode" />
-              <item name="可变参数" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-plus" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-plus" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="wp" type="462c0819:PsiDirectoryNode" />
-              <item name="回调" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-plus" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-plus" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="wp" type="462c0819:PsiDirectoryNode" />
-              <item name="回调" type="462c0819:PsiDirectoryNode" />
-              <item name="callback" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-plus" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-plus" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="wp" type="462c0819:PsiDirectoryNode" />
-              <item name="回调" type="462c0819:PsiDirectoryNode" />
-              <item name="callback2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-plus" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-plus" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="wp" type="462c0819:PsiDirectoryNode" />
-              <item name="枚举" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-plus" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-plus" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="wp" type="462c0819:PsiDirectoryNode" />
+              <item name="reflect" type="462c0819:PsiDirectoryNode" />
               <item name="泛型擦除" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="java-plus" type="b2602c69:ProjectViewProjectNode" />
               <item name="java-plus" type="462c0819:PsiDirectoryNode" />
+              <item name="反射" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="wp" type="462c0819:PsiDirectoryNode" />
-              <item name="类加载器" type="462c0819:PsiDirectoryNode" />
+              <item name="reflect" type="462c0819:PsiDirectoryNode" />
+              <item name="结合注解" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="java-plus" type="b2602c69:ProjectViewProjectNode" />
               <item name="java-plus" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="wp" type="462c0819:PsiDirectoryNode" />
-              <item name="编码" type="462c0819:PsiDirectoryNode" />
+              <item name="多线程" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="java-plus" type="b2602c69:ProjectViewProjectNode" />
               <item name="java-plus" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="wp" type="462c0819:PsiDirectoryNode" />
-              <item name="自动装箱和拆箱" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-plus" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-plus" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="wp" type="462c0819:PsiDirectoryNode" />
-              <item name="静态导入" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-plus" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-plus" type="462c0819:PsiDirectoryNode" />
-              <item name="动态代理" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-plus" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-plus" type="462c0819:PsiDirectoryNode" />
-              <item name="动态代理" type="462c0819:PsiDirectoryNode" />
+              <item name="多线程" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="java-plus" type="b2602c69:ProjectViewProjectNode" />
               <item name="java-plus" type="462c0819:PsiDirectoryNode" />
-              <item name="动态代理" type="462c0819:PsiDirectoryNode" />
+              <item name="多线程" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="thread" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="java-plus" type="b2602c69:ProjectViewProjectNode" />
               <item name="java-plus" type="462c0819:PsiDirectoryNode" />
-              <item name="动态代理" type="462c0819:PsiDirectoryNode" />
+              <item name="多线程" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="thread" type="462c0819:PsiDirectoryNode" />
+              <item name="MyThread3.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
             <path>
               <item name="java-plus" type="b2602c69:ProjectViewProjectNode" />
               <item name="java-plus" type="462c0819:PsiDirectoryNode" />
-              <item name="动态代理" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="aop" type="462c0819:PsiDirectoryNode" />
+              <item name="数据结构" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="java-plus" type="b2602c69:ProjectViewProjectNode" />
               <item name="java-plus" type="462c0819:PsiDirectoryNode" />
-              <item name="动态代理" type="462c0819:PsiDirectoryNode" />
+              <item name="数据结构" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="proxy" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="java-plus" type="b2602c69:ProjectViewProjectNode" />
               <item name="java-plus" type="462c0819:PsiDirectoryNode" />
-              <item name="动态代理" type="462c0819:PsiDirectoryNode" />
+              <item name="数据结构" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="threadSafe" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -326,13 +194,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TestBeanUtils">
-    <configuration name="GuavaFuture" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.wp.回调.callback2.GuavaFuture" />
+  <component name="RunManager" selected="Application.MyThread3">
+    <configuration name="IntegerWrapper" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wp.IntegerWrapper" />
       <module name="java-plus" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.wp.回调.callback2.*" />
+          <option name="PATTERN" value="com.wp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -340,12 +208,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Reflect" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.wp.ArrayList与HashSet比较及Hashcode分析.Reflect" />
+    <configuration name="MyThread3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread.MyThread3" />
       <module name="java-plus" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.wp.ArrayList与HashSet比较及Hashcode分析.*" />
+          <option name="PATTERN" value="thread.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -353,12 +221,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestBeanUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.wp.内省操作javabean.TestBeanUtils" />
+    <configuration name="StaticImport" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wp.静态导入.StaticImport" />
       <module name="java-plus" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.wp.内省操作javabean.*" />
+          <option name="PATTERN" value="com.wp.静态导入.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -366,12 +234,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.wp.string.TestString" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cache.simple.Test" />
       <module name="java-plus" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.wp.string.*" />
+          <option name="PATTERN" value="cache.simple.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -379,21 +247,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="All in spring-IOC简单实现" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-IOC简单实现" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
+    <configuration name="TwoLockLinkQueue$TestClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="queue.threadSafe.TwoLockLinkQueue$TestClass" />
+      <module name="java-plus" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="queue.threadSafe.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TestBeanUtils" />
-        <item itemvalue="Application.GuavaFuture" />
-        <item itemvalue="Application.TestString" />
-        <item itemvalue="JUnit.All in spring-IOC简单实现" />
-        <item itemvalue="Application.Reflect" />
+        <item itemvalue="Application.MyThread3" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.TwoLockLinkQueue$TestClass" />
+        <item itemvalue="Application.IntegerWrapper" />
+        <item itemvalue="Application.StaticImport" />
       </list>
     </recent_temporary>
   </component>
@@ -408,7 +281,7 @@
       <option name="presentableId" value="Default" />
       <updated>1561629323070</updated>
       <workItem from="1561629325580" duration="1269000" />
-      <workItem from="1561638935891" duration="4949000" />
+      <workItem from="1561638935891" duration="9088000" />
     </task>
     <servers />
   </component>
@@ -418,19 +291,18 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6218000" />
+    <option name="totallyTimeSpent" value="10357000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Web" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2532189" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21316166" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Learn" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info anchor="bottom" x="21" y="362" width="1398" height="198" id="Run" order="0" sideWeight="0.49928468" visible="true" weight="0.2522293" />
+      <window_info anchor="bottom" x="21" y="362" width="1398" height="198" id="Run" order="0" sideWeight="0.49642345" visible="true" weight="0.32356688" />
       <window_info anchor="bottom" id="Java Enterprise" order="1" />
       <window_info anchor="bottom" id="Message" order="2" />
       <window_info anchor="bottom" id="Find" order="3" />
@@ -440,10 +312,10 @@
       <window_info anchor="bottom" id="TODO" order="7" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="9" weight="0.3299363" />
-      <window_info active="true" anchor="bottom" x="689" y="664" width="727" height="199" id="Terminal" order="10" sideWeight="0.5007153" side_tool="true" visible="true" weight="0.2522293" />
+      <window_info anchor="bottom" x="689" y="664" width="727" height="199" id="Terminal" order="10" sideWeight="0.5035765" side_tool="true" visible="true" weight="0.32356688" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5007153" side_tool="true" weight="0.2522293" />
       <window_info anchor="bottom" id="Version Control" order="12" />
-      <window_info anchor="bottom" id="Messages" order="13" weight="0.3299363" />
+      <window_info anchor="bottom" id="Messages" order="13" sideWeight="0.49713877" weight="0.3299363" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -460,13 +332,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/wp/IntegerWrapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -553,13 +418,124 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/wp/内省操作javabean/TestIntrospector.java">
+    <entry file="jar://$PROJECT_DIR$/lib/commons-beanutils-1.9.3.jar!/org/apache/commons/beanutils/BeanUtils.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="31" lean-forward="true" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+        <state relative-caret-position="186">
+          <caret line="42" column="38" selection-start-line="42" selection-start-column="38" selection-end-line="42" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wp/内省操作javabean/TestBeanUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="36" column="58" selection-start-line="36" selection-start-column="49" selection-end-line="36" selection-end-column="58" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wp/内省操作javabean/TestIntrospector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="498">
+          <caret line="48" column="37" selection-start-line="48" selection-start-column="26" selection-end-line="48" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wp/可变参数/VariableParameter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="37" lean-forward="true" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wp/回调/callback/Server.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="18" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wp/回调/callback/CSCallBack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wp/回调/callback/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="18" column="38" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wp/回调/callback/CallBackTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="34" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wp/回调/callback2/JavaPromise.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wp/回调/callback2/JavaFuture.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wp/回调/callback2/GuavaFuture.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="48" column="1" lean-forward="true" selection-start-line="48" selection-start-column="1" selection-end-line="48" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1160#1161#0" expanded="true" />
+            <element signature="e#1221#1222#0" expanded="true" />
+            <element signature="e#1319#1320#0" expanded="true" />
+            <element signature="e#1385#1386#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wp/枚举/WeekDate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2028">
+          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wp/枚举/WeekDateEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1038">
+          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wp/枚举/EnumTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="12" column="43" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wp/泛型/泛型擦除/反射观察泛型擦除.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="18" column="30" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="30" />
         </state>
       </provider>
     </entry>
@@ -570,64 +546,130 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/wp/泛型/泛型擦除/反射观察泛型擦除.java">
+    <entry file="file://$PROJECT_DIR$/src/com/wp/类加载器/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        <state relative-caret-position="45">
+          <caret line="3" column="36" lean-forward="true" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/wp/静态导入/StaticImport.java">
+    <entry file="file://$PROJECT_DIR$/src/com/wp/类加载器/PrintClassLoader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        <state relative-caret-position="15">
+          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wp/类加载器/FileSystemClassLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wp/编码/Encoding.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="23" column="28" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/wp/自动装箱和拆箱/Box.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        <state relative-caret-position="301">
+          <caret line="47" column="23" lean-forward="true" selection-start-line="47" selection-start-column="23" selection-end-line="47" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/wp/内省操作javabean/TestBeanUtils.java">
+    <entry file="file://$PROJECT_DIR$/src/com/wp/静态导入/StaticImport.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="124" lean-forward="true" selection-start-line="13" selection-start-column="124" selection-end-line="13" selection-end-column="124" />
+        <state relative-caret-position="255">
+          <caret line="17" column="37" lean-forward="true" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/wp/回调/callback2/JavaPromise.java">
+    <entry file="file://$PROJECT_DIR$/src/com/wp/IntegerWrapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="11" column="67" lean-forward="true" selection-start-line="11" selection-start-column="67" selection-end-line="11" selection-end-column="67" />
+        <state relative-caret-position="388">
+          <caret line="28" column="39" selection-start-line="28" selection-start-column="39" selection-end-line="28" selection-end-column="39" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/wp/回调/callback2/JavaFuture.java">
+    <entry file="file://$PROJECT_DIR$/反射/反射.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/数据结构/src/queue/threadSafe/TwoLockLinkQueue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
+        <state relative-caret-position="285">
+          <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/缓存/cache.markdown">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/缓存/src/cache/simple/Cache.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="54" column="36" selection-start-line="54" selection-start-column="23" selection-end-line="54" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/缓存/src/cache/simple/CacheManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2143">
+          <caret line="21" column="56" selection-start-line="21" selection-start-column="56" selection-end-line="21" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HotAgent/src/META-INF/MANIFEST.MF">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/缓存/src/cache/simple/SimpleCache.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-932">
           <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/wp/回调/callback2/GuavaFuture.java">
+    <entry file="file://$PROJECT_DIR$/HotAgent/src/com/wp/ReloadTask.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="44" lean-forward="true" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1160#1161#0" expanded="true" />
-            <element signature="e#1221#1222#0" expanded="true" />
-            <element signature="e#1319#1320#0" expanded="true" />
-            <element signature="e#1385#1386#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="165">
+          <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HotAgent/src/com/wp/ClassTransform.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HotAgent/src/com/wp/HotAgent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/多线程/src/thread/MyThread3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="331">
+          <caret line="36" column="5" lean-forward="true" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/数据结构/数据结构.iml">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">
@@ -686,6 +728,7 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
