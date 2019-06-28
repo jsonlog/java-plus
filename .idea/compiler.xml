@@ -13,10 +13,10 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
-      <module name="jdbc" target="1.5" />
-      <module name="servlet" target="1.5" />
-      <module name="spring-IOC简单实现" target="1.5" />
-      <module name="动态代理" target="1.5" />
+      <module name="jdbc" target="8" />
+      <module name="servlet" target="8" />
+      <module name="spring-IOC简单实现" target="8" />
+      <module name="动态代理" target="8" />
     </bytecodeTargetLevel>
   </component>
 </project>
