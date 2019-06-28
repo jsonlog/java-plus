@@ -15,7 +15,8 @@ public class MainTest {
         Person person = new Person();
         person.produce();
 
-        File properties = new File("F:\\IDEA\\reflect\\src\\com\\wp\\反射的扩展性\\special.properties");
+//        File properties = new File("F:\\IDEA\\reflect\\src\\com\\wp\\反射的扩展性\\special.properties");
+        File properties = new File("//Users//push//java-plus//反射//src//reflect//之前的代码//反射的扩展性//special.properties");
         Properties prop = new Properties();
         FileInputStream inputStream= new FileInputStream(properties);
 

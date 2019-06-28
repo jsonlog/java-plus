@@ -23,7 +23,7 @@ public class LiteralPetCreator extends PetCreator {
         Iterator<Pet> iterator = pets.iterator();
         while (iterator.hasNext()){
             typeCounter.count(iterator.next());
+            System.out.println(typeCounter.toString());
         }
-        System.out.println(typeCounter.toString());
     }
 }

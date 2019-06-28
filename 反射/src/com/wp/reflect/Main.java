@@ -1,4 +1,4 @@
-package reflect.之前的代码.reflect;
+package com.wp.reflect;
 
 import java.lang.reflect.*;
 
@@ -75,20 +75,20 @@ public class Main {
         
         //写法1, 可能抛出 ClassNotFoundException [多用这个写法]
         class1 = Class.forName("com.wp.reflect.Person");
-        System.out.println("Demo2:(写法1) 包名: " + class1.getPackage().getName() + "，" 
+        System.out.println("Demo2:(写法1) 包名: " + class1.getPackage().getName() + "，"
 				+ "完整类名: " + class1.getName());
-        
+
         //写法2
         class2 = Person.class;
-        System.out.println("Demo2:(写法2) 包名: " + class2.getPackage().getName() + "，" 
+        System.out.println("Demo2:(写法2) 包名: " + class2.getPackage().getName() + "，"
 				+ "完整类名: " + class2.getName());
 	}
-	
+
 	/**
 	 * Demo3: 通过Java反射机制，用Class 创建类对象[这也就是反射存在的意义所在]
-	 * @throws ClassNotFoundException 
-	 * @throws IllegalAccessException 
-	 * @throws InstantiationException 
+	 * @throws ClassNotFoundException
+	 * @throws IllegalAccessException
+	 * @throws InstantiationException
 	 */
 	public static void Demo3() throws ClassNotFoundException, InstantiationException, IllegalAccessException
 	{
@@ -100,20 +100,20 @@ public class Main {
 		person.setName("王萍");
 		System.out.println("Demo3: " + person.getName() + " : " + person.getAge());
 	}
-	
+
 	/**
 	 * Demo4: 通过Java反射机制得到一个类的构造函数，并实现创建带参实例对象
-	 * @throws ClassNotFoundException 
-	 * @throws InvocationTargetException 
-	 * @throws IllegalAccessException 
-	 * @throws InstantiationException 
-	 * @throws IllegalArgumentException 
+	 * @throws ClassNotFoundException
+	 * @throws InvocationTargetException
+	 * @throws IllegalAccessException
+	 * @throws InstantiationException
+	 * @throws IllegalArgumentException
 	 */
 	public static void Demo4() throws ClassNotFoundException, IllegalArgumentException, InstantiationException, IllegalAccessException, InvocationTargetException, NoSuchMethodException {
 		Class<?> class1 = null;
 		Person person1 = null;
 		Person person2 = null;
-		
+
 		class1 = Class.forName("com.wp.reflect.Person");
 		//得到一系列构造函数集合
 		Constructor<?>[] constructors = class1.getConstructors();
@@ -121,7 +121,7 @@ public class Main {
         person1 = (Person) constructors[0].newInstance();
 		person1.setAge(30);
 		person1.setName("王萍");
-		
+
 		person2 = (Person) constructors[1].newInstance(18,"王萍");
         //获取指定参数类型的构造函数,与person2使用的同一个构造函数
         //这里如果使用Integer.class会报错
@@ -129,18 +129,18 @@ public class Main {
 		System.out.println("Demo4: " + person1.getName() + " : " + person1.getAge()
 				+ "  ,   " + person2.getName() + " : " + person2.getAge()
 				);
-		
+
 	}
-	
+
 	/**
 	 * Demo5: 通过Java反射机制操作成员变量, set 和 get
-	 * 
-	 * @throws IllegalAccessException 
-	 * @throws IllegalArgumentException 
-	 * @throws NoSuchFieldException 
-	 * @throws SecurityException 
-	 * @throws InstantiationException 
-	 * @throws ClassNotFoundException 
+	 *
+	 * @throws IllegalAccessException
+	 * @throws IllegalArgumentException
+	 * @throws NoSuchFieldException
+	 * @throws SecurityException
+	 * @throws InstantiationException
+	 * @throws ClassNotFoundException
 	 */
 	public static void Demo5() throws IllegalArgumentException, IllegalAccessException, SecurityException, NoSuchFieldException, InstantiationException, ClassNotFoundException
 	{
