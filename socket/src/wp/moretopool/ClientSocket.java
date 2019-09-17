@@ -1,4 +1,4 @@
-package wp.moretomore;
+package wp.moretopool;
 
 /**
  * @author jsonlog
@@ -6,7 +6,6 @@ package wp.moretomore;
  */
 
 import java.io.*;
-
 import java.net.Socket;
 
 public class ClientSocket {
