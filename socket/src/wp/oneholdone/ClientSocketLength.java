@@ -7,6 +7,7 @@ package wp.oneholdone;
 
 import java.io.*;
 import java.net.Socket;
+import java.util.Scanner;
 
 public class ClientSocketLength {
 
@@ -14,34 +15,37 @@ public class ClientSocketLength {
 
         try {
 
-//初始化一个socket
-
             Socket socket =new Socket("127.0.0.1",9999);
 
-            //通过socket获取字符流
+            OutputStream outputStream = socket.getOutputStream();
 
-            BufferedWriter bufferedWriter =new BufferedWriter(new OutputStreamWriter(socket.getOutputStream()));
+            DataOutputStream dataOutputStream =new DataOutputStream(outputStream);
 
-            //通过标准输入流获取字符流
+            Scanner scanner =new Scanner(System.in);
 
-            BufferedReader bufferedReader =new BufferedReader(new InputStreamReader(System.in,"UTF-8"));
+            if(scanner.hasNext()){
 
-            while (true){
+                String str = scanner.next();
 
-                String str = bufferedReader.readLine();
+                int type =1;
 
-                bufferedWriter.write(str);
+                byte[] data = str.getBytes();
 
-                bufferedWriter.write("\n");
+                int len = data.length +5;
 
-                bufferedWriter.flush();
+                dataOutputStream.writeByte(type);
+
+                dataOutputStream.writeInt(len);
+
+                dataOutputStream.write(data);
+
+                dataOutputStream.flush();
 
             }
 
         }catch (IOException e) {
 
             e.printStackTrace();
-
         }
 
     }

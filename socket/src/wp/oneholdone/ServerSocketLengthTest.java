@@ -5,9 +5,7 @@ package wp.oneholdone;
  * @date 2019-09-17
  */
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
+import java.io.*;
 import java.net.ServerSocket;
 import java.net.Socket;
 
@@ -17,29 +15,31 @@ public class ServerSocketLengthTest {
 
         try {
 
-// 初始化服务端socket并且绑定9999端口
+            ServerSocket serverSocket =new ServerSocket(9999);
 
-            ServerSocket serverSocket  =new ServerSocket(9999);
+            Socket client = serverSocket.accept();
 
-            //等待客户端的连接
+            InputStream inputStream = client.getInputStream();
 
-            Socket socket = serverSocket.accept();
+            DataInputStream dataInputStream =new DataInputStream(inputStream);
 
-            //获取输入流,并且指定统一的编码格式
+            while (true){
 
-            BufferedReader bufferedReader =new BufferedReader(new InputStreamReader(socket.getInputStream(),"UTF-8"));
+                byte b = dataInputStream.readByte();
 
-            //读取一行数据
+                int len = dataInputStream.readInt();
 
-            String str;
+                byte[] data =new byte[len -5];
 
-            //通过while循环不断读取信息，
+                dataInputStream.readFully(data);
 
-            while ((str = bufferedReader.readLine())!=null){
+                String str =new String(data);
 
-//输出打印
+                System.out.println("获取的数据类型为："+b);
 
-                System.out.println(str);
+                System.out.println("获取的数据长度为："+len);
+
+                System.out.println("获取的数据内容为："+str);
 
             }
 
