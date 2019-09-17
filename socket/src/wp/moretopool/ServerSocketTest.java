@@ -5,11 +5,23 @@ package wp.moretopool;
  * @date 2019-09-17
  */
 
+import java.beans.Encoder;
+
 import java.io.BufferedReader;
+
+import java.io.BufferedWriter;
+
 import java.io.IOException;
+
 import java.io.InputStreamReader;
+
 import java.net.ServerSocket;
+
 import java.net.Socket;
+
+import java.util.concurrent.ExecutorService;
+
+import java.util.concurrent.Executors;
 
 public class ServerSocketTest {
 
@@ -17,53 +29,49 @@ public class ServerSocketTest {
 
 // 初始化服务端socket并且绑定9999端口
 
-        ServerSocket serverSocket  =new ServerSocket(9999);
+        ServerSocket serverSocket =new ServerSocket(9999);
 
-        while (true){
+        //创建一个线程池
+
+        ExecutorService executorService = Executors.newFixedThreadPool(100);
+
+        while (true) {
 
 //等待客户端的连接
 
             Socket socket = serverSocket.accept();
 
-            //每当有一个客户端连接进来后，就启动一个单独的线程进行处理
+            Runnable runnable = () -> {
 
-            new Thread(new Runnable() {
+                BufferedReader bufferedReader =null;
 
-                @Override
+                try {
 
-                public void run() {
+                    bufferedReader =new BufferedReader(new InputStreamReader(socket.getInputStream(), "UTF-8"));
 
-//获取输入流,并且指定统一的编码格式
+                    //读取一行数据
 
-                    BufferedReader bufferedReader =null;
+                    String str;
 
-                    try {
+                    //通过while循环不断读取信息，
 
-                        bufferedReader =new BufferedReader(new InputStreamReader(socket.getInputStream(),"UTF-8"));
-
-                        //读取一行数据
-
-                        String str;
-
-                        //通过while循环不断读取信息，
-
-                        while ((str = bufferedReader.readLine())!=null){
+                    while ((str = bufferedReader.readLine()) !=null) {
 
 //输出打印
 
-                            System.out.println("客户端说："+str);
-
-                        }
-
-                    }catch (IOException e) {
-
-                        e.printStackTrace();
+                        System.out.println("客户端说：" + str);
 
                     }
 
+                }catch (IOException e) {
+
+                    e.printStackTrace();
+
                 }
 
-            }).start();
+            };
+
+            executorService.submit(runnable);
 
         }
 

@@ -1,4 +1,4 @@
-package wp.moretomore;
+package wp.oneholdone;
 
 /**
  * @author jsonlog
@@ -6,10 +6,9 @@ package wp.moretomore;
  */
 
 import java.io.*;
-
 import java.net.Socket;
 
-public class ClientSocket {
+public class ClientSocketLength {
 
     public static void main(String[] args) {
 
@@ -20,6 +19,7 @@ public class ClientSocket {
             Socket socket =new Socket("127.0.0.1",9999);
 
             //通过socket获取字符流
+
             BufferedWriter bufferedWriter =new BufferedWriter(new OutputStreamWriter(socket.getOutputStream()));
 
             //通过标准输入流获取字符流
