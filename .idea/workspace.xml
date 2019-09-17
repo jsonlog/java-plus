@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2fca2018-b0c7-4194-a3e1-ab575980bafb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/socket/src/wp/oneholdone/ClientSocket.java" beforeDir="false" afterPath="$PROJECT_DIR$/socket/src/wp/oneholdone/ClientSocket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/socket/src/wp/oneholdone/ServerSocketTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/socket/src/wp/oneholdone/ServerSocketTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/jdbc/target/" />
     <ignored path="$PROJECT_DIR$/servlet/target/" />
@@ -20,97 +21,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/动态代理/src/main/java/proxy/Main.java">
+        <entry file="file://$PROJECT_DIR$/socket/src/wp/oneholdone/ClientSocket.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="24" selection-start-line="24" selection-end-line="24" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/socket/src/wp/aio/Client.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="716">
-              <caret line="72" column="5" lean-forward="true" selection-start-line="72" selection-start-column="5" selection-end-line="72" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/socket/src/wp/udp/UDPReceiver.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/socket/src/wp/udp/UDPSender.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
-              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/socket/src/wp/aio/Server.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="41" column="4" lean-forward="true" selection-start-line="41" selection-start-column="4" selection-end-line="41" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/socket/src/wp/aio/ServerCompletionHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-21">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/socket/src/wp/nio/Client.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/socket/src/wp/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="77">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/socket/src/wp/onetoone/ServerSocketTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3">
-              <caret line="20" column="44" lean-forward="true" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="-149">
+              <caret line="13" column="44" lean-forward="true" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/socket/src/wp/onetoone/ClientSocket.java">
+        <entry file="file://$PROJECT_DIR$/socket/src/wp/oneholdone/ServerSocketTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="34" column="36" lean-forward="true" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="36" />
+            <state relative-caret-position="338">
+              <caret line="47" column="30" lean-forward="true" selection-start-line="47" selection-start-column="30" selection-end-line="47" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -164,6 +87,9 @@
         <option value="$PROJECT_DIR$/动态代理/src/main/java/proxy/Main.java" />
         <option value="$PROJECT_DIR$/socket/src/wp/onetoone/ServerSocketTest.java" />
         <option value="$PROJECT_DIR$/socket/src/wp/onetoone/ClientSocket.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/socket/src/wp/oneholdone/ClientSocket.java" />
+        <option value="$PROJECT_DIR$/socket/src/wp/oneholdone/ServerSocketTest.java" />
       </list>
     </option>
   </component>
@@ -265,6 +191,14 @@
               <item name="wp" type="462c0819:PsiDirectoryNode" />
               <item name="nio" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java-plus" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-plus" type="462c0819:PsiDirectoryNode" />
+              <item name="socket" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="wp" type="462c0819:PsiDirectoryNode" />
+              <item name="oneholdone" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="java-plus" type="b2602c69:ProjectViewProjectNode" />
@@ -654,7 +588,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/socket/src/wp/oneholdone" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/socket/src/wp/moretomore" />
     <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -663,6 +597,10 @@
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.wp" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/socket/src/wp/oneholdone" />
+      <recent name="$PROJECT_DIR$/socket/src/wp" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -677,13 +615,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ClientSocket">
+  <component name="RunManager" selected="Application.ClientSocket (1)">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="wp.aio.Client" />
       <module name="java-plus" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="wp.aio.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClientSocket (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="wp.oneholdone.ClientSocket" />
+      <module name="java-plus" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="wp.oneholdone.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -704,12 +655,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="wp.aio.Server" />
+    <configuration name="ServerSocketTest (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="wp.oneholdone.ServerSocketTest" />
       <module name="java-plus" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="wp.aio.*" />
+          <option name="PATTERN" value="wp.oneholdone.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -730,28 +681,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="All in 动态代理" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="动态代理" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="JUnit.All in 动态代理" />
-      <item itemvalue="Application.Server" />
       <item itemvalue="Application.Client" />
       <item itemvalue="Application.ServerSocketTest" />
       <item itemvalue="Application.ClientSocket" />
+      <item itemvalue="Application.ServerSocketTest (1)" />
+      <item itemvalue="Application.ClientSocket (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ClientSocket (1)" />
+        <item itemvalue="Application.ServerSocketTest (1)" />
         <item itemvalue="Application.ClientSocket" />
         <item itemvalue="Application.ServerSocketTest" />
         <item itemvalue="Application.Client" />
-        <item itemvalue="Application.Server" />
-        <item itemvalue="JUnit.All in 动态代理" />
       </list>
     </recent_temporary>
   </component>
@@ -773,7 +716,7 @@
       <workItem from="1563859996767" duration="873000" />
       <workItem from="1564474454836" duration="496000" />
       <workItem from="1564731826912" duration="745000" />
-      <workItem from="1568701951228" duration="1267000" />
+      <workItem from="1568701951228" duration="1928000" />
     </task>
     <servers />
   </component>
@@ -801,11 +744,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25516000" />
+    <option name="totallyTimeSpent" value="26177000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23319027" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -813,7 +755,7 @@
       <window_info id="Learn" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info id="Web" order="5" side_tool="true" />
-      <window_info active="true" anchor="bottom" x="21" y="362" width="1398" height="198" id="Run" order="0" sideWeight="0.49213162" visible="true" weight="0.32356688" />
+      <window_info anchor="bottom" x="21" y="362" width="1398" height="198" id="Run" order="0" sideWeight="0.49213162" visible="true" weight="0.32356688" />
       <window_info anchor="bottom" id="Java Enterprise" order="1" />
       <window_info anchor="bottom" id="Message" order="2" />
       <window_info anchor="bottom" id="Find" order="3" sideWeight="0.4985694" visible="true" weight="0.3299363" />
@@ -823,7 +765,7 @@
       <window_info anchor="bottom" id="TODO" order="7" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="9" weight="0.3299363" />
-      <window_info anchor="bottom" x="689" y="664" width="727" height="199" id="Terminal" order="10" sideWeight="0.5078684" side_tool="true" visible="true" weight="0.32356688" />
+      <window_info active="true" anchor="bottom" x="689" y="664" width="727" height="199" id="Terminal" order="10" sideWeight="0.5078684" side_tool="true" visible="true" weight="0.32356688" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5007153" side_tool="true" weight="0.2522293" />
       <window_info anchor="bottom" id="Version Control" order="12" />
       <window_info anchor="bottom" id="Messages" order="13" sideWeight="0.49213162" weight="0.3299363" />
@@ -839,19 +781,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/HotAgent/src/MANIFEST.MF">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HotAgent/src/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="75" lean-forward="true" selection-start-line="1" selection-start-column="75" selection-end-line="1" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HotAgent/HotAgent.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/HotAgent/readme.md">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1189,8 +1118,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/socket/src/wp/onetoone/ClientSocket.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="34" column="36" lean-forward="true" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="36" />
+        <state relative-caret-position="111">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="6" lean-forward="true" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/socket/src/wp/oneholdone/ClientSocket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-149">
+          <caret line="13" column="44" lean-forward="true" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/socket/src/wp/oneholdone/ServerSocketTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="47" column="30" lean-forward="true" selection-start-line="47" selection-start-column="30" selection-end-line="47" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -1,4 +1,4 @@
-package wp.oneholdone;
+package wp.moretomore;
 
 /**
  * @author jsonlog
@@ -6,7 +6,6 @@ package wp.oneholdone;
  */
 
 import java.io.*;
-
 import java.net.Socket;
 
 public class ClientSocket {
