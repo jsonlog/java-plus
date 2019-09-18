@@ -71,6 +71,7 @@ public class ServerSocketTest {
 
             };
 
+//            service.execute(new EchoProtocol(clntSock, logger));
             executorService.submit(runnable);
 
         }
